@@ -1,0 +1,34 @@
+body {
+    height: 100vh;
+    overflow: hidden !important;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, rgba(172, 220, 167, 1) 0%, rgba(101, 235, 87, 1) 50%, rgba(2, 86, 12, 1) 100%);
+}
+
+
+.game-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 900px;
+    /* Adjust as needed */
+    margin: 0 auto;
+}
+
+.game-board .col-sm-3 {
+    flex: 0 0 25%;
+    /* Each mole takes up 25% of the row */
+    max-width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-board img {
+    width: 120px;
+    /* Set fixed width */
+    height: 120px;
+    /* Set fixed height */
+}
