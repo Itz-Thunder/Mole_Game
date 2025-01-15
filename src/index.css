@@ -11,8 +11,8 @@ body {
 .game-board {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    max-width: 900px;
+    width: 97%;
+    max-width: 850px;
     /* Adjust as needed */
     margin: 0 auto;
 }
@@ -20,7 +20,7 @@ body {
 .game-board .col-sm-3 {
     flex: 0 0 25%;
     /* Each mole takes up 25% of the row */
-    max-width: 25%;
+    max-width: 24%;
     display: flex;
     justify-content: center;
     align-items: center;
